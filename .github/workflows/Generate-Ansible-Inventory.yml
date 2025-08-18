@@ -10,7 +10,7 @@ jobs:
 
       - name: Create inventory directory
         run: |
-          sudo -u user20 mkdir -p /home/shruti/ansible/
+          sudo -u user20 mkdir -p /home/user20/ansible/
           sudo chown -R user20:user20 /home/shruti/ansible
 
       - name: Generate inventory.yaml
