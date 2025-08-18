@@ -15,7 +15,7 @@ jobs:
 
       - name: Generate inventory.yaml
         run: |
-          sudo -u shruti bash -c 'cat > /home/shruti/ansible/inventory.yaml' << 'EOF'
+          sudo -u user20 bash -c 'cat > /home/user20/ansible/inventory.yaml' << 'EOF'
           ---
           all:
             children:
