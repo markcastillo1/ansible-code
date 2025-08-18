@@ -3,7 +3,7 @@ on:
 
 jobs:
   generate-inventory:
-    runs-on: [ ]
+    runs-on: [  ]
 
     steps:
      
