@@ -1,9 +1,11 @@
+name: Generate ansible.cfg
+
 on:
   workflow_dispatch:
 
 jobs:
   generate-ansible-cfg:
-    runs-on: [  ]
+    runs-on: [ self-hosted ]
 
     steps:
 
